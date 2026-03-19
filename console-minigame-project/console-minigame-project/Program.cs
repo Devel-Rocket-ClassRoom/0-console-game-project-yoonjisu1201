@@ -1,15 +1,4 @@
 ﻿using System;
 
-public struct Word
-{
-    public string[] fruits = new string[]
-    {
-
-
-
-
-
-
-
-    };
-}
+GameManager gameManager = new GameManager();
+gameManager.Play();
